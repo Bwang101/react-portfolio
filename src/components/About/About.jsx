@@ -8,39 +8,32 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Highschool Student</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I go to school at Walnut High School and will probably major 
+              Computer Science in the future.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>School</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I have outside classes where I learn calculus, physics 2, java coding, and data science.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Skills/Hobbies</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              I like running, playing basketball, and biking. I occassionaly play video games when I have time, and I also play piano.
               </p>
             </div>
           </li>

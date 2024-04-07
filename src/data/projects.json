@@ -1,26 +1,23 @@
 [
   {
-    "title": "Project A",
+    "title": "Memory Game",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Memory game with cards"
   },
   {
-    "title": "Project B",
+    "title": "Bootstrap",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Painting"
+  
   },
   {
-    "title": "Project C",
+    "title": "Weather App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Weather app"
+  },
+  {
+    "title": "To do app",
+    "imageSrc": "projects/project.png",
+    "description": "To do"
   }
 ]

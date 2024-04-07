@@ -1,47 +1,41 @@
 import React from "react";
 
-import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
-import history from "../../data/history.json";
+import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Experience = () => {
+export const About = () => {
   return (
-    <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experience</h2>
+    <section className={styles.container} id="about">
+      <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
-        </div>
-        <ul className={styles.history}>
-          {history.map((historyItem, id) => {
-            return (
-              <li key={id} className={styles.historyItem}>
-                <img
-                  src={getImageUrl(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
+        <ul className={styles.aboutItems}>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Name</h3>
+              <p>
+              Welcome to my portfolio. My name is Brandon Wang and I am 15 years old. I want to major computer science in the future.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Experience</h3>
+              <p>
+                I have been to robotic competitions for 2 years being co-captain. I've also attened many coding competitions and cyber security.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Family</h3>
+              <p>
+                I have a sister, a mom and a dad, and also a cat named Mickey
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
