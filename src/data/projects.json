@@ -1,23 +1,34 @@
 [
   {
-    "title": "Memory Game",
+    "title": "Project A",
     "imageSrc": "projects/project.png",
-    "description": "Memory game with cards"
+    "description": "This is a memory card game.",
+    "skills": ["JS", "CSS", "HTML"],
+    "demo": "https://memorygameprojectt.netlify.app",
+    "source": "https://github.com/Bwang101"
   },
   {
-    "title": "Bootstrap",
+    "title": "Project B",
     "imageSrc": "projects/project.png",
-    "description": "Painting"
-  
+    "description": "This is a Bootstrap project",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Bwang101"
   },
   {
-    "title": "Weather App",
+    "title": "Project C",
     "imageSrc": "projects/project.png",
-    "description": "Weather app"
+    "description": "This is a To Do App",
+    "skills": ["React", "MongoDB", "Node", "JS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Bwang101"
   },
   {
-    "title": "To do app",
+    "title": "Project D",
     "imageSrc": "projects/project.png",
-    "description": "To do"
+    "description": "This is a weather app",
+    "skills" : ["React", "JS", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Bwang101"
   }
 ]
